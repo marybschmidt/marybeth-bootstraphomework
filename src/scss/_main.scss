@@ -1,0 +1,26 @@
+.page-footer {
+  background-color:  lightgray;
+  clear: both;
+  display: block;
+}
+
+.jumbotron {
+  background-image: url(../media/pirate-ship.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white; 
+  text-align: center;
+ }
+
+ .card {
+  border: none;
+}
+
+.col-lg-8 {
+  border-left: 1px solid black;
+}
+
+.img-thumbnail {
+  border: none;
+}

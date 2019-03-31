@@ -1,29 +1,7 @@
-// Custom variable overrides go here
-// For options, see node_modules/bootstrap/scss/_variables.scss
-// examples:
-// $body-bg: black;
-// $body-color: white;
-// $link-hover-color: grey;
-// $font-family-sans-serif: "Helvetica Neue";
-
-
-
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
-
-.jumbotron {
-  background-image: url(/media/pirate-ship.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
- }
-
-#navbarSupportedContent a:hover {
-  text-decoration:underline;
-}
-
-.card col-sm-4 {
-  height:70px
-}
+@import 'base';
+@import 'main';
+@import 'nav';
