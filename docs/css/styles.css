@@ -4,6 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6313,7 +6314,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 .card-title {
-  font-family: comic sans ms; }
+  font-family: 'Indie Flower', cursive; }
 
 .lead {
   font-family: courier body copy; }
@@ -6325,7 +6326,7 @@ p {
   font-family: comic sans ms; }
 
 .display-4 {
-  font-family: comic sans ms; }
+  font-family: 'Indie Flower', cursive; }
 
 .page-footer {
   background-color: lightgray;
